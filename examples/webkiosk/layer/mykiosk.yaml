@@ -15,7 +15,6 @@ mmdebstrap:
     - python3-rich
     - python3-art
     - python3-pyfiglet
-    - python3-wordhoard
     - python3-emoji
     - lightdm
     - xfce4
