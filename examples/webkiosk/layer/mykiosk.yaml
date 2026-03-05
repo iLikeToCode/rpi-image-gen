@@ -20,4 +20,4 @@ mmdebstrap:
     - xfce4
   customize-hooks:
     - chroot $1 systemctl enable lightdm
-    - chroot $1 useradd -m -s /bin/bash pi && echo 'pi:raspberry' | chpasswd
+    - chroot $1 echo 'pi:raspberry' | chpasswd
