@@ -1,5 +1,5 @@
 device:
-  layer: rpi5
+  layer: rpi3
 
 image:
   layer: image-rpios
