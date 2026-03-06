@@ -18,6 +18,7 @@ mmdebstrap:
     - python3-emoji
     - lightdm
     - xfce4
+    - plymouth
   customize-hooks:
     - chroot $1 systemctl enable lightdm
     - chroot $1 usermod --password $(openssl passwd -6 raspberry) pi
