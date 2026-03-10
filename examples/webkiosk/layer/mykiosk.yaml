@@ -16,8 +16,8 @@ mmdebstrap:
     - python3-art
     - python3-pyfiglet
     - python3-emoji
-    - ly
+    - lxdm
     - xfce4
   customize-hooks:
-    - chroot $1 systemctl enable ly
+    - chroot $1 systemctl enable lxdm
     - chroot $1 usermod --password $(openssl passwd -6 raspberry) pi
