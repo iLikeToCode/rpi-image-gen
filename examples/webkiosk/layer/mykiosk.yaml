@@ -19,6 +19,7 @@ mmdebstrap:
     - python3-pygame
     - sddm
     - xfce4
+    - policykit-1
   customize-hooks:
     - chroot $1 systemctl enable sddm
     - chroot $1 usermod --password $(openssl passwd -6 raspberry) pi
