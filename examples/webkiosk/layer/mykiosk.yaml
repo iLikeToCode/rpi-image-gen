@@ -16,6 +16,7 @@ mmdebstrap:
     - python3-art
     - python3-pyfiglet
     - python3-emoji
+    - python3-pygame
     - sddm
     - xfce4
   customize-hooks:
